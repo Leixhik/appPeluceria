@@ -6,7 +6,7 @@ function obtener_servicios(){
         require 'database.php';
 
         // Consulta SQL
-        $sql = "SELECT * FROM servicios;";
+        $sql = "SELECT * FROM servicios LIMIT 5;";
 
         // Realizar la consulta
         $consulta = mysqli_query($db, $sql);

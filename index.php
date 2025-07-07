@@ -32,10 +32,8 @@ $consulta = obtener_servicios();
                         <div class="servicio">
                             <p class="nombre-servicio"><?php echo $servicio['nombre']; ?></p>
                             <p class="precio-servicio"><?php echo $servicio['precio']; ?></p>
-                            <p><?php echo $servicio['id']; ?></p>
                         </div>
                     <?php  }  ?>
-
                 </div>
             </div>
         </div>
