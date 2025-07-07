@@ -8,7 +8,7 @@ if (!$db){
     die('Error de conexión: ' . mysqli_connect_error());
 }
 
-echo "<pre>";
-var_dump($db);
-echo "</pre>";
+// echo "<pre>";
+// var_dump($db);
+// echo "</pre>";
 
